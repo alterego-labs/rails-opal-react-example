@@ -6,7 +6,7 @@ gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '5.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -43,10 +43,12 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'react.rb', '0.2.0'
+gem 'opal-react', github: 'catprintlabs/react.rb', branch: 'opal-0.8', ref: '8683973c894319140cd40ab95144ff5639633065'
 
 gem 'slim-rails', '3.0.1'
 
-gem 'opal-jquery', '0.2.0'
+gem 'opal-jquery', github: 'opal/opal-jquery', ref: '7b5c300533641e08de503e06e0d1ac40c024f2a3'
 
-gem 'opal-rails', '0.6.3'
+gem 'opal-rails', github: 'opal/opal-rails', tag: 'dcbf30439b146af5c943d30a33e3308759ea554e'
+
+gem 'opal-rspec', github: 'opal/opal-rspec', ref: 'e2290d56ff5147e5a2b96258ef5bdc2b54a9e6af'
