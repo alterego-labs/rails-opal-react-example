@@ -1,5 +1,9 @@
 class HelloMessage
+  include React::Component
+
   def render
-    React.create_element("div") { "Hello World!" }
+    div do
+      "Hello World!"
+    end
   end
 end
