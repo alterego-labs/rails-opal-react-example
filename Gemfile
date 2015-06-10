@@ -33,9 +33,6 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
-
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -56,3 +53,5 @@ gem 'opal-rspec', github: 'opal/opal-rspec', ref: 'e2290d56ff5147e5a2b96258ef5bd
 gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', ref: 'c5297b18b8f37afe33d764eb5201c8ddc5902995'
 
 gem 'gon', github: 'gazay/gon', ref: '8f87a090ad893966b6f16339681d2befbd075dc2'
+
+gem 'pry-nav'
