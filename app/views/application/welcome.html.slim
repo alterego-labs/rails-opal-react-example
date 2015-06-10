@@ -1,6 +1,11 @@
+opal:
+  Document.ready? do
+    React.render React.create_element(HelloMessage), Element.find("#content")
+  end
+
 .jumbotron
   h1 Rails + Opal + React
 
   p#content
 
-  p: a.btn.btn-primary.btn-lg*{role: :button} Run!
+  p: a.btn.btn-primary.btn-lg*{role: :button, href: posts_path} Run!

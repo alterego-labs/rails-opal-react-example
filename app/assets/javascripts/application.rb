@@ -4,7 +4,3 @@ require "json"
 require 'components'
 require 'opal-jquery'
 require 'twitter/bootstrap'
-
-alert "Hello from jquery + opal"
-
-alert Element.find("#content").html
