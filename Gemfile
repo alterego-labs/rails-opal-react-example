@@ -52,3 +52,5 @@ gem 'opal-jquery', github: 'opal/opal-jquery', ref: '7b5c300533641e08de503e06e0d
 gem 'opal-rails', github: 'opal/opal-rails', tag: 'dcbf30439b146af5c943d30a33e3308759ea554e'
 
 gem 'opal-rspec', github: 'opal/opal-rspec', ref: 'e2290d56ff5147e5a2b96258ef5bdc2b54a9e6af'
+
+gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', ref: 'c5297b18b8f37afe33d764eb5201c8ddc5902995'
