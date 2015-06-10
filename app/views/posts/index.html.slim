@@ -1,6 +1,7 @@
 opal:
   Document.ready? do
-    React.render React.create_element(MainView), Element.find("#posts")
+    posts_json = `gon.posts`
+    `window.main_view = #{React.render(React.create_element(MainView, posts: posts_json), Element.find("#posts"))}`
   end
 
 #posts

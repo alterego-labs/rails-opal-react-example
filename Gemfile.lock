@@ -9,6 +9,17 @@ GIT
       opal-activesupport
 
 GIT
+  remote: git://github.com/gazay/gon.git
+  revision: 8f87a090ad893966b6f16339681d2befbd075dc2
+  ref: 8f87a090ad893966b6f16339681d2befbd075dc2
+  specs:
+    gon (5.2.3)
+      actionpack (>= 2.3.0)
+      json
+      multi_json
+      request_store (>= 1.0.5)
+
+GIT
   remote: git://github.com/opal/opal-jquery.git
   revision: 7b5c300533641e08de503e06e0d1ac40c024f2a3
   ref: 7b5c300533641e08de503e06e0d1ac40c024f2a3
@@ -168,6 +179,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+    request_store (1.1.0)
     sass (3.4.14)
     sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -214,6 +226,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  gon!
   jbuilder (~> 2.0)
   jquery-rails (= 4.0.3)
   opal-jquery!

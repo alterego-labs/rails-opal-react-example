@@ -54,3 +54,5 @@ gem 'opal-rails', github: 'opal/opal-rails', tag: 'dcbf30439b146af5c943d30a33e33
 gem 'opal-rspec', github: 'opal/opal-rspec', ref: 'e2290d56ff5147e5a2b96258ef5bdc2b54a9e6af'
 
 gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', ref: 'c5297b18b8f37afe33d764eb5201c8ddc5902995'
+
+gem 'gon', github: 'gazay/gon', ref: '8f87a090ad893966b6f16339681d2befbd075dc2'
