@@ -1,4 +1,5 @@
 require 'components/add_post_form_view'
+require 'components/posts_list'
 
 class MainView
   include React::Component
@@ -19,6 +20,7 @@ class MainView
         h2 { 'Posts wall' }
       end
       present AddPostFormView
+      present PostsList, posts: self.data
     end
   end
 end
